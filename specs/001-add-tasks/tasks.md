@@ -12,9 +12,9 @@
 
 **Purpose**: Establish the static app skeleton and testing baseline.
 
-- [ ] T001 Create the initial frontend structure for the app in index.html, styles.css, and script.js
-- [ ] T002 [P] Configure the browser-based validation workflow and test files in tests/smoke.test.js
-- [ ] T003 [P] Add the initial semantic HTML structure and accessible labels in index.html
+- [X] T001 Create the initial frontend structure for the app in index.html, styles.css, and script.js
+- [X] T002 [P] Configure the browser-based validation workflow and test files in tests/smoke.test.js
+- [X] T003 [P] Add the initial semantic HTML structure and accessible labels in index.html
 
 ---
 
@@ -22,10 +22,10 @@
 
 **Purpose**: Put in place the shared task state and validation logic required before story work begins.
 
-- [ ] T004 Define the in-memory task data model and app state in script.js
-- [ ] T005 Implement the render helper that updates the task list in the DOM in script.js
-- [ ] T006 Add client-side validation for empty and whitespace-only task entries in script.js
-- [ ] T007 Document the app assumptions and validation steps in quickstart.md
+- [X] T004 Define the in-memory task data model and app state in script.js
+- [X] T005 Implement the render helper that updates the task list in the DOM in script.js
+- [X] T006 Add client-side validation for empty and whitespace-only task entries in script.js
+- [X] T007 Document the app assumptions and validation steps in quickstart.md
 
 **Checkpoint**: The task state, validation, and rendering foundation is ready before user story implementation starts.
 
@@ -39,16 +39,16 @@
 
 ### Tests for User Story 1
 
-- [ ] T008 [P] [US1] Add failing smoke test for successful task creation in tests/smoke.test.js
-- [ ] T009 [P] [US1] Add validation test for empty input rejection in tests/smoke.test.js
+- [X] T008 [P] [US1] Add failing smoke test for successful task creation in tests/smoke.test.js
+- [X] T009 [P] [US1] Add validation test for empty input rejection in tests/smoke.test.js
 
 ### Implementation for User Story 1
 
-- [ ] T010 [P] [US1] Build the task input field and Add button in index.html
-- [ ] T011 [P] [US1] Style the input form and list layout in styles.css
-- [ ] T012 [US1] Implement the add-task click handler and task creation logic in script.js
-- [ ] T013 [US1] Ensure the task is inserted into the rendered list immediately without page reload in script.js
-- [ ] T014 [US1] Add focused, keyboard-friendly interaction states for the input and button in index.html and styles.css
+- [X] T010 [P] [US1] Build the task input field and Add button in index.html
+- [X] T011 [P] [US1] Style the input form and list layout in styles.css
+- [X] T012 [US1] Implement the add-task click handler and task creation logic in script.js
+- [X] T013 [US1] Ensure the task is inserted into the rendered list immediately without page reload in script.js
+- [X] T014 [US1] Add focused, keyboard-friendly interaction states for the input and button in index.html and styles.css
 
 **Checkpoint**: User Story 1 is fully functional and testable on its own.
 
@@ -62,14 +62,14 @@
 
 ### Tests for User Story 2
 
-- [ ] T015 [P] [US2] Add regression test covering whitespace-only input handling in tests/smoke.test.js
-- [ ] T016 [P] [US2] Add negative test for rejected empty submissions in tests/smoke.test.js
+- [X] T015 [P] [US2] Add regression test covering whitespace-only input handling in tests/smoke.test.js
+- [X] T016 [P] [US2] Add negative test for rejected empty submissions in tests/smoke.test.js
 
 ### Implementation for User Story 2
 
-- [ ] T017 [US2] Ensure trimming occurs before validation in script.js
-- [ ] T018 [US2] Keep the task list unchanged when validation fails in script.js
-- [ ] T019 [US2] Add a clear validation message or inline feedback pattern in index.html and styles.css
+- [X] T017 [US2] Ensure trimming occurs before validation in script.js
+- [X] T018 [US2] Keep the task list unchanged when validation fails in script.js
+- [X] T019 [US2] Add a clear validation message or inline feedback pattern in index.html and styles.css
 
 **Checkpoint**: User Story 2 is independently validated and does not create invalid items.
 
@@ -83,14 +83,14 @@
 
 ### Tests for User Story 3
 
-- [ ] T020 [P] [US3] Add a smoke test covering rapid sequential additions in tests/smoke.test.js
-- [ ] T021 [P] [US3] Validate the list order and immediate render behavior in tests/smoke.test.js
+- [X] T020 [P] [US3] Add a smoke test covering rapid sequential additions in tests/smoke.test.js
+- [X] T021 [P] [US3] Validate the list order and immediate render behavior in tests/smoke.test.js
 
 ### Implementation for User Story 3
 
-- [ ] T022 [US3] Confirm new tasks append in insertion order in script.js
-- [ ] T023 [US3] Verify the DOM list updates immediately after each successful add in script.js
-- [ ] T024 [US3] Review focus and accessibility states after task insertion in index.html and styles.css
+- [X] T022 [US3] Confirm new tasks append in insertion order in script.js
+- [X] T023 [US3] Verify the DOM list updates immediately after each successful add in script.js
+- [X] T024 [US3] Review focus and accessibility states after task insertion in index.html and styles.css
 
 **Checkpoint**: The task list behaves correctly over repeated user interactions.
 
@@ -100,10 +100,10 @@
 
 **Purpose**: Review, validate, and document the final feature quality.
 
-- [ ] T025 [P] Review code readability and structure across index.html, styles.css, and script.js
-- [ ] T026 [P] Run the smoke validation suite for all user stories in tests/smoke.test.js
-- [ ] T027 [P] Update project documentation and completion notes in README.md or quickstart.md
-- [ ] T028 Final accessibility and responsive pass for the form and task list UI
+- [X] T025 [P] Review code readability and structure across index.html, styles.css, and script.js
+- [X] T026 [P] Run the smoke validation suite for all user stories in tests/smoke.test.js
+- [X] T027 [P] Update project documentation and completion notes in README.md or quickstart.md
+- [X] T028 Final accessibility and responsive pass for the form and task list UI
 
 ---
 
